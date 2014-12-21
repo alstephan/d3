@@ -1,4 +1,4 @@
-var document = require("jsdom").jsdom(),
+var document = require("jsdom-nogyp").jsdom(),
     globals = {};
 
 // Stash old globals.

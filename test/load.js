@@ -1,7 +1,7 @@
 process.env.TZ = "America/Los_Angeles";
 
 var smash = require("smash"),
-    jsdom = require("jsdom");
+    jsdom = require("jsdom-nogyp");
 
 require("./XMLHttpRequest");
 
